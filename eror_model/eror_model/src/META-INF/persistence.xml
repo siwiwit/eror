@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.0"
+	xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd">
+	<persistence-unit name="estate_report_model"
+		transaction-type="RESOURCE_LOCAL">
+		<provider>org.datanucleus.api.jpa.PersistenceProviderImpl</provider>
+		<mapping-file>eclipselink-orm.xml</mapping-file>
+		<class>com.eror.model.BaseModel</class>
+		<class>com.eror.model.sys.SysUser</class>
+		<!-- <properties> <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/estate_report"/> 
+			<property name="javax.persistence.jdbc.user" value="estate_report"/> <property 
+			name="javax.persistence.jdbc.password" value="estate_report"/> <property 
+			name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/> </properties> -->
+		<properties>
+			<property name="datanucleus.ConnectionURL" value="excel:file:eror.xls" />
+			<property name="datanucleus.autoCreateSchema" value="true" />
+			<property name="datanucleus.autoCreateTables" value="true" />
+			<property name="datanucleus.autoCreateColumns" value="true" />
+			<property name="datanucleus.validateTables" value="false" />
+			<property name="datanucleus.validateConstraints" value="false" />
+		</properties>
+	</persistence-unit>
+</persistence>

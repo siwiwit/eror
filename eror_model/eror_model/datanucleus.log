@@ -1,0 +1,123 @@
+11:44:35,351 (Main Thread) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 3.2.2) for API "JDO" using JRE "1.6"
+11:44:35,491 (Main Thread) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 0 classes.
+11:44:35,491 (Main Thread) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed and no classes were enhanced. Consult the log for full details
+12:47:05,763 (Main Thread) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 3.2.2) for API "JDO" using JRE "1.6"
+12:47:05,826 (Main Thread) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 0 classes.
+12:47:05,826 (Main Thread) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed and no classes were enhanced. Consult the log for full details
+12:49:12,667 (Main Thread) ERROR [DataNucleus.Persistence] - Error : An error occurred trying to instantiate an instance of the API adapter "org.datanucleus.api.jdo.JDOAdapter" (perhaps you dont have the requisite datanucleus-api-XXX jar in the CLASSPATH, or the api jar for the persistence spec you are using?) : {1}
+java.lang.NoClassDefFoundError: javax/jdo/spi/PersistenceCapable$ObjectIdFieldConsumer
+	at java.lang.Class.getDeclaredConstructors0(Native Method)
+	at java.lang.Class.privateGetDeclaredConstructors(Class.java:2389)
+	at java.lang.Class.getConstructor0(Class.java:2699)
+	at java.lang.Class.getConstructor(Class.java:1657)
+	at org.datanucleus.plugin.NonManagedPluginRegistry.createExecutableExtension(NonManagedPluginRegistry.java:630)
+	at org.datanucleus.plugin.PluginManager.createExecutableExtension(PluginManager.java:301)
+	at org.datanucleus.api.ApiAdapterFactory.getApiAdapter(ApiAdapterFactory.java:92)
+	at org.datanucleus.NucleusContext.<init>(NucleusContext.java:284)
+	at org.datanucleus.NucleusContext.<init>(NucleusContext.java:244)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.<init>(DataNucleusEnhancer.java:148)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.main(DataNucleusEnhancer.java:1147)
+12:51:13,102 (Main Thread) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 3.2.2) for API "JDO" using JRE "1.6"
+12:51:13,180 (Main Thread) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 0 classes.
+12:51:13,180 (Main Thread) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed and no classes were enhanced. Consult the log for full details
+12:56:40,799 (Main Thread) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 3.2.2) for API "JDO" using JRE "1.6"
+12:56:40,861 (Main Thread) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 0 classes.
+12:56:40,861 (Main Thread) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed and no classes were enhanced. Consult the log for full details
+12:56:47,049 (Main Thread) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 3.2.2) for API "JDO" using JRE "1.6"
+12:56:47,111 (Main Thread) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 0 classes.
+12:56:47,111 (Main Thread) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed and no classes were enhanced. Consult the log for full details
+12:57:31,345 (Main Thread) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 3.2.2) for API "JDO" using JRE "1.6"
+12:57:31,407 (Main Thread) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 0 classes.
+12:57:31,407 (Main Thread) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed and no classes were enhanced. Consult the log for full details
+12:57:53,407 (Main Thread) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 3.2.2) for API "JDO" using JRE "1.6"
+12:57:53,485 (Main Thread) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 0 classes.
+12:57:53,485 (Main Thread) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed and no classes were enhanced. Consult the log for full details
+12:58:49,843 (Main Thread) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 3.2.2) for API "JDO" using JRE "1.6"
+12:58:50,187 (Main Thread) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 0 classes.
+12:58:50,187 (Main Thread) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed and no classes were enhanced. Consult the log for full details
+13:01:02,106 (Main Thread) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 3.2.2) for API "JPA" using JRE "1.6"
+13:01:02,216 (Main Thread) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 0 classes. Timings : input=78 ms, enhance=0 ms, total=78 ms. Consult the log for full details
+13:01:02,231 (Main Thread) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed and no classes were enhanced. Consult the log for full details
+13:01:49,480 (Main Thread) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 3.2.2) for API "JPA" using JRE "1.6"
+13:01:49,840 (Main Thread) WARN  [DataNucleus.MetaData] - Class com.eror.model.BaseModel has no table of its own, is using application-identity and has no primary key fields. Marking as not persistence instantiable
+13:01:50,387 (Main Thread) INFO  [DataNucleus.Enhancer] - Writing class file "C:\Documents and Settings\widip\workspacef\eror_model\build\classes\com\eror\model\BaseModel.class" with enhanced definition
+13:01:50,418 (Main Thread) INFO  [DataNucleus.Enhancer] - ENHANCED (PersistenceCapable) : com.eror.model.BaseModel
+13:01:50,418 (Main Thread) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 1 classes. Timings : input=391 ms, enhance=531 ms, total=922 ms. Consult the log for full details
+13:03:00,526 (Main Thread) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 3.2.2) for API "JPA" using JRE "1.6"
+13:03:00,995 (Main Thread) WARN  [DataNucleus.MetaData] - Class com.eror.model.BaseModel has no table of its own, is using application-identity and has no primary key fields. Marking as not persistence instantiable
+13:03:01,010 (Main Thread) ERROR [DataNucleus.MetaData] - Class com.eror.model.sys.SysUser has application-identity and no objectid-class specified yet has 0 primary key fields. Unable to use SingleFieldIdentity.
+13:03:01,010 (Main Thread) ERROR [DataNucleus.Enhancer] - DataNucleus Enhancer completed with an error. Please review the enhancer log (at DEBUG level) for full details. Some classes may have been enhanced but some caused errors
+Class com.eror.model.sys.SysUser has application-identity and no objectid-class specified yet has 0 primary key fields. Unable to use SingleFieldIdentity.
+org.datanucleus.metadata.InvalidClassMetaDataException: Class com.eror.model.sys.SysUser has application-identity and no objectid-class specified yet has 0 primary key fields. Unable to use SingleFieldIdentity.
+	at org.datanucleus.metadata.AbstractClassMetaData.determineObjectIdClass(AbstractClassMetaData.java:1376)
+	at org.datanucleus.metadata.ClassMetaData.populate(ClassMetaData.java:209)
+	at org.datanucleus.metadata.MetaDataManager$1.run(MetaDataManager.java:2771)
+	at org.datanucleus.metadata.MetaDataManager.populateAbstractClassMetaData(MetaDataManager.java:2765)
+	at org.datanucleus.metadata.MetaDataManager.populateFileMetaData(MetaDataManager.java:2588)
+	at org.datanucleus.metadata.MetaDataManager.initialiseFileMetaDataForUse(MetaDataManager.java:1148)
+	at org.datanucleus.metadata.MetaDataManager.loadClasses(MetaDataManager.java:568)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getFileMetadataForInput(DataNucleusEnhancer.java:737)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.enhance(DataNucleusEnhancer.java:513)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.main(DataNucleusEnhancer.java:1281)
+13:03:02,604 (Main Thread) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 3.2.2) for API "JPA" using JRE "1.6"
+13:03:02,963 (Main Thread) WARN  [DataNucleus.MetaData] - Class com.eror.model.BaseModel has no table of its own, is using application-identity and has no primary key fields. Marking as not persistence instantiable
+13:03:02,995 (Main Thread) ERROR [DataNucleus.MetaData] - Class com.eror.model.sys.SysUser has application-identity and no objectid-class specified yet has 0 primary key fields. Unable to use SingleFieldIdentity.
+13:03:02,995 (Main Thread) ERROR [DataNucleus.Enhancer] - DataNucleus Enhancer completed with an error. Please review the enhancer log (at DEBUG level) for full details. Some classes may have been enhanced but some caused errors
+Class com.eror.model.sys.SysUser has application-identity and no objectid-class specified yet has 0 primary key fields. Unable to use SingleFieldIdentity.
+org.datanucleus.metadata.InvalidClassMetaDataException: Class com.eror.model.sys.SysUser has application-identity and no objectid-class specified yet has 0 primary key fields. Unable to use SingleFieldIdentity.
+	at org.datanucleus.metadata.AbstractClassMetaData.determineObjectIdClass(AbstractClassMetaData.java:1376)
+	at org.datanucleus.metadata.ClassMetaData.populate(ClassMetaData.java:209)
+	at org.datanucleus.metadata.MetaDataManager$1.run(MetaDataManager.java:2771)
+	at org.datanucleus.metadata.MetaDataManager.populateAbstractClassMetaData(MetaDataManager.java:2765)
+	at org.datanucleus.metadata.MetaDataManager.populateFileMetaData(MetaDataManager.java:2588)
+	at org.datanucleus.metadata.MetaDataManager.initialiseFileMetaDataForUse(MetaDataManager.java:1148)
+	at org.datanucleus.metadata.MetaDataManager.loadClasses(MetaDataManager.java:568)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getFileMetadataForInput(DataNucleusEnhancer.java:737)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.enhance(DataNucleusEnhancer.java:513)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.main(DataNucleusEnhancer.java:1281)
+13:10:05,580 (Main Thread) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 3.2.2) for API "JPA" using JRE "1.6"
+13:10:05,893 (Main Thread) WARN  [DataNucleus.MetaData] - Class com.eror.model.BaseModel has no table of its own, is using application-identity and has no primary key fields. Marking as not persistence instantiable
+13:10:05,908 (Main Thread) ERROR [DataNucleus.MetaData] - Class com.eror.model.sys.SysUser has application-identity and no objectid-class specified yet has 0 primary key fields. Unable to use SingleFieldIdentity.
+13:10:05,908 (Main Thread) ERROR [DataNucleus.Enhancer] - DataNucleus Enhancer completed with an error. Please review the enhancer log (at DEBUG level) for full details. Some classes may have been enhanced but some caused errors
+Class com.eror.model.sys.SysUser has application-identity and no objectid-class specified yet has 0 primary key fields. Unable to use SingleFieldIdentity.
+org.datanucleus.metadata.InvalidClassMetaDataException: Class com.eror.model.sys.SysUser has application-identity and no objectid-class specified yet has 0 primary key fields. Unable to use SingleFieldIdentity.
+	at org.datanucleus.metadata.AbstractClassMetaData.determineObjectIdClass(AbstractClassMetaData.java:1376)
+	at org.datanucleus.metadata.ClassMetaData.populate(ClassMetaData.java:209)
+	at org.datanucleus.metadata.MetaDataManager$1.run(MetaDataManager.java:2771)
+	at org.datanucleus.metadata.MetaDataManager.populateAbstractClassMetaData(MetaDataManager.java:2765)
+	at org.datanucleus.metadata.MetaDataManager.populateFileMetaData(MetaDataManager.java:2588)
+	at org.datanucleus.metadata.MetaDataManager.initialiseFileMetaDataForUse(MetaDataManager.java:1148)
+	at org.datanucleus.metadata.MetaDataManager.loadClasses(MetaDataManager.java:568)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getFileMetadataForInput(DataNucleusEnhancer.java:737)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.enhance(DataNucleusEnhancer.java:513)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.main(DataNucleusEnhancer.java:1281)
+13:13:45,920 (Main Thread) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 3.2.2) for API "JPA" using JRE "1.6"
+13:13:46,732 (Main Thread) INFO  [DataNucleus.Enhancer] - Writing class file "C:\Documents and Settings\widip\workspacef\eror_model\build\classes\com\eror\model\BaseModel.class" with enhanced definition
+13:13:46,748 (Main Thread) INFO  [DataNucleus.Enhancer] - ENHANCED (PersistenceCapable) : com.eror.model.BaseModel
+13:13:46,764 (Main Thread) INFO  [DataNucleus.Enhancer] - Writing class file "C:\Documents and Settings\widip\workspacef\eror_model\build\classes\com\eror\model\sys\SysUser.class" with enhanced definition
+13:13:46,764 (Main Thread) INFO  [DataNucleus.Enhancer] - ENHANCED (PersistenceCapable) : com.eror.model.sys.SysUser
+13:13:46,764 (Main Thread) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 2 classes. Timings : input=469 ms, enhance=360 ms, total=829 ms. Consult the log for full details
+13:21:37,005 (Main Thread) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 3.2.2) for API "JPA" using JRE "1.6"
+13:21:37,739 (Main Thread) INFO  [DataNucleus.Enhancer] - Writing class file "C:\Documents and Settings\widip\workspacef\eror_model\build\classes\com\eror\model\BaseModel.class" with enhanced definition
+13:21:37,755 (Main Thread) INFO  [DataNucleus.Enhancer] - ENHANCED (PersistenceCapable) : com.eror.model.BaseModel
+13:21:37,770 (Main Thread) INFO  [DataNucleus.Enhancer] - Writing class file "C:\Documents and Settings\widip\workspacef\eror_model\build\classes\com\eror\model\sys\SysUser.class" with enhanced definition
+13:21:37,770 (Main Thread) INFO  [DataNucleus.Enhancer] - ENHANCED (PersistenceCapable) : com.eror.model.sys.SysUser
+13:21:37,770 (Main Thread) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 2 classes. Timings : input=390 ms, enhance=344 ms, total=734 ms. Consult the log for full details
+13:36:27,737 (Main Thread) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 3.2.2) for API "JPA" using JRE "1.6"
+13:36:28,237 (Main Thread) INFO  [DataNucleus.Enhancer] - Class "com.eror.model.BaseModel" is already enhanced.
+13:36:28,237 (Main Thread) INFO  [DataNucleus.Enhancer] - ENHANCED (PersistenceCapable) : com.eror.model.BaseModel
+13:36:28,394 (Main Thread) INFO  [DataNucleus.Enhancer] - Writing class file "C:\Documents and Settings\widip\workspacef\eror_model\build\classes\com\eror\model\sys\SysUser.class" with enhanced definition
+13:36:28,394 (Main Thread) INFO  [DataNucleus.Enhancer] - ENHANCED (PersistenceCapable) : com.eror.model.sys.SysUser
+13:36:28,394 (Main Thread) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 2 classes. Timings : input=375 ms, enhance=250 ms, total=625 ms. Consult the log for full details
+13:39:17,578 (Main Thread) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 3.2.2) for API "JPA" using JRE "1.6"
+13:39:18,109 (Main Thread) INFO  [DataNucleus.Enhancer] - Writing class file "C:\Documents and Settings\widip\workspacef\eror_model\build\classes\com\eror\model\BaseModel.class" with enhanced definition
+13:39:18,109 (Main Thread) INFO  [DataNucleus.Enhancer] - ENHANCED (PersistenceCapable) : com.eror.model.BaseModel
+13:39:18,125 (Main Thread) INFO  [DataNucleus.Enhancer] - Writing class file "C:\Documents and Settings\widip\workspacef\eror_model\build\classes\com\eror\model\sys\SysUser.class" with enhanced definition
+13:39:18,125 (Main Thread) INFO  [DataNucleus.Enhancer] - ENHANCED (PersistenceCapable) : com.eror.model.sys.SysUser
+13:39:18,125 (Main Thread) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 2 classes. Timings : input=281 ms, enhance=235 ms, total=516 ms. Consult the log for full details
+14:08:50,731 (Main Thread) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 3.2.2) for API "JPA" using JRE "1.6"
+14:08:51,169 (Main Thread) INFO  [DataNucleus.Enhancer] - Class "com.eror.model.BaseModel" is already enhanced.
+14:08:51,169 (Main Thread) INFO  [DataNucleus.Enhancer] - ENHANCED (PersistenceCapable) : com.eror.model.BaseModel
+14:08:51,278 (Main Thread) INFO  [DataNucleus.Enhancer] - Writing class file "C:\Documents and Settings\widip\workspacef\eror_model\build\classes\com\eror\model\sys\SysUser.class" with enhanced definition
+14:08:51,278 (Main Thread) INFO  [DataNucleus.Enhancer] - ENHANCED (PersistenceCapable) : com.eror.model.sys.SysUser
+14:08:51,294 (Main Thread) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 2 classes. Timings : input=282 ms, enhance=187 ms, total=469 ms. Consult the log for full details
